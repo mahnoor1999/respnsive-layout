@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    font: 1.2em/1.4 Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    padding: 0 0 1em;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    border: 5px solid #000;
+  }
+
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1em;
+    border-top: 1px solid #999;
+  }
+
+  header .title {
+    font-size: 150%;
+    font-style: italic;
+    font-weight: bold;
+    padding: 1em;
+  }
+
+  main {
+    padding: 0 1em;
+  }
+
+  .cards {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cards li {
+    border: 5px solid #000;
+    margin-bottom: 1em;
+  }
+
+  .cards h2 {
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0.5em 1em;
+  }
+
+  .cards .inner {
+    padding: 0.5em 1em;
+  }
+
+  .sidebar {
+    background-color: #333;
+    border: 5px solid #000;
+    padding: 0.5em 1em;
+    color: #fff;
+  }
+  @media screen and (min-width:992px){
+     
+      /* *{
+          box-sizing: border-box;  
+        }
+        .container{
+         
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 60px 200px 200px 200px;
+           justify-content: space-between;
+          
+        }
+        header{
+            grid-template-rows: 1/2;
+            grid-template-columns: 1/4;
+            display: flex;
+            justify-content: space-between;
+        }
+        header ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        main{
+            grid-template-columns: 1/5;
+            grid-template-rows: 2/3;
+
+        } */
+        *{
+            font-size: 16px;
+            box-sizing: unset;
+        }
+        header{
+            width: auto;
+            height: 5em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul{
+
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            
+            
+        }
+         header a{
+            border-top: none;
+        }
+        
+        .cards .inner{
+            margin: 0em;
+            padding: 0em;
+            padding-left: 28px;
+        }
+        
+        
+        article li{
+            width: 24%;
+            height:14em;
+            margin-right: 5em;
+        }
+        article ul li:nth-child(3){
+            margin-right: 0em;
+            
+        }
+        main{
+            display: flex;
+            justify-content: space-between;
+        }
+        .sidebar{
+            width: 73em;
+            margin-top: 2em;
+        }
+        .para{
+            width: 60em;
+        }
+        .para h1{
+            font-size: 1.6em;
+        }
+        
+        
+      
+
+      
+
+  }
